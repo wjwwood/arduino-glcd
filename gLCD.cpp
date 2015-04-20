@@ -7,12 +7,12 @@
 	
 */
 
-#include "WProgram.h"
+#include "Arduino.h"
 #include "gLCD.h"
 #include <avr/pgmspace.h>
 
 	//Character Database store
-byte charData[96][5] PROGMEM = {
+const byte charData[96][5] PROGMEM = {
 	{0x00 , 0x00 , 0x00 , 0x00 , 0x00 }, // 32 = <space>
 	{0x00 , 0x06 , 0x5F , 0x06 , 0x00 }, // 33 = !
 	{0x07 , 0x03 , 0x00 , 0x07 , 0x03 }, // 34 = "

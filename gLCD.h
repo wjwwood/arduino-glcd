@@ -141,7 +141,7 @@
 #ifndef gLCD_h
 #define gLCD_h
 
-	#include "WProgram.h"
+	#include "Arduino.h"
 
 	
 	/* Ports #defines
